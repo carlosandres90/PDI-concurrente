@@ -17,7 +17,7 @@ public class Imagenes {
     public static void main(String[] args) {
         try {
             // Cargar la imagen
-            File archivo = new File("/Users/andrespillajo/Documents/imagen.png");
+            File archivo = new File("imagen.png");
             BufferedImage imagen = ImageIO.read(archivo);
 
             int altura = imagen.getHeight();
@@ -53,7 +53,7 @@ public class Imagenes {
             }
 
             // Guardar la nueva imagen
-            File archivoSalida = new File("/Users/andrespillajo/Documents/imagen_gris01.png");
+            File archivoSalida = new File("imagen_gris_conc.png");
             ImageIO.write(imagen, "png", archivoSalida);
             
             long fin = System.nanoTime(); // Registrar tiempo final
