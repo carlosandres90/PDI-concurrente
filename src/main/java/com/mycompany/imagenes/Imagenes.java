@@ -58,7 +58,7 @@ public class Imagenes {
             
             long fin = System.nanoTime(); // Registrar tiempo final
 
-            System.out.println("Imagen procesada y guardada como 'imagen_gris01.png'");
+            System.out.println("Imagen procesada y guardada como 'imagen_gris_conc.png'");
             System.out.println("Tiempo de ejecución: " + (fin - inicio) / 1_000_000 + " ms");
             
         } catch (Exception e) {
